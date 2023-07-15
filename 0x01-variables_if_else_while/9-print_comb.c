@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-int ch = '0';
-while (ch <= '9')
+int ch = 0;
+while (ch <= 9)
 {
-putchar(ch);
+putchar(ch + 48);
 if (ch != 9)
 {
 putchar(',');
