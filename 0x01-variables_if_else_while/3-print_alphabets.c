@@ -15,8 +15,8 @@ c++;
 }
 while (h <= 'Z')
 {
- putchar(h);
- h++;
+putchar(h);
+h++;
 }
 putchar('\n');
 return (0);
