@@ -4,7 +4,7 @@
  *   *   *   *   *   *
  *    *    *    *    *    * Return: Always 0 (Success)
  */
-nt main(void)
+int main(void)
 {
 char ch = '0';
 while (ch <= '9')
