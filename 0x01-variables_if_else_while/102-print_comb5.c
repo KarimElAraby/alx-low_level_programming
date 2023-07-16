@@ -6,34 +6,24 @@
  */
 int main(void)
 {
-int x = 0, y, z, w;
-while (x <= 9)
+int x = 0, y;
+while (x <= 99)
 {
-y = 0;
-while (y <= 9)
+y = x;
+while (y <= 99)
 {
-z = 0;
-while (z <= 9)
+if (y != x)
 {
-w = 0;
-while (w <= 9)
-{
-if (x >= y && x <= z && x <= w  &&  x + y != z + w)
-{
-putchar(x + 48);
-putchar(y + 48);
+putchar((x / 10) + 48);
+putchar((x % 10) + 48);
 putchar(' ');
-putchar(z + 48);
-putchar(w + 48);
-if (x + y + z + w != 197)
+putchar((y / 10) + 48);
+putchar((y % 10) + 48);
+if (x + y != 197)
 {
 putchar(',');
 putchar(' ');
 }
-}
-w++;
-}
-z++;
 }
 y++;
 }
