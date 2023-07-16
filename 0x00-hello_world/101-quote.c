@@ -1,17 +1,15 @@
 #include <stdio.h>
 /**
- *fileds - filedes
+ * fileds - int number of array
  *
- * *buf - array
+ * buf - const char that will array
  *
- * nbyte -size
- *
+ * nbyte - unsigned int
  *
  * main - Entry point
  *
  * Return: Always 1 (error)
- *
-    */
+ */
 int write(int filedes, const char *buf, unsigned int nbyte);
 int main(void)
 {
