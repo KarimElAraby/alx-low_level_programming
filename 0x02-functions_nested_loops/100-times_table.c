@@ -20,7 +20,7 @@ for (i = 0; i <= n; i++)
 	{
 		_putchar(',');
 		_putchar(' ');
-		prod = i * j;
+		prod = n * n;
 	if (prod <= 9)
 	{
 		_putchar(' ');
