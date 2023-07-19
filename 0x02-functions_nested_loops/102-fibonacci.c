@@ -7,15 +7,17 @@
 int main(void)
 {
 int i;
-int t1 = 1, t2 = 2;
-unsigned long int  nextTerm = t1 + t2;
-	printf("1, 2, ");
-for (i = 3; i <= 50; ++i)
+unsigned long t1 = 0, t2 = 1, nextTerm;
+for (i = 0; i <= 50; i++)
 {
+	nextTerm = t1 + t2;
 	printf("%lu, ", nextTerm);
 	t1 = t2;
 	t2 = nextTerm;
-	nextTerm = t1 + t2;
+	if (i == 49)
+		printf("\n");
+	else 
+		printf (", ");
 }
 return (0);
 }
