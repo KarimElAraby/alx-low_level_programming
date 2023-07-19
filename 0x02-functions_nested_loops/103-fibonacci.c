@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  *  *  *  *  *  *  *  *  * main - Entry point
  *   *   *   *   *   *   *   *   *
@@ -8,7 +8,7 @@ int main(void)
 {
 unsigned long t1 = 0, t2 = 1, nextTerm;
 float total_sum;
-while (1 < 2)
+while (1)
 {
 nextTerm = t1 + t2;
 if (nextTerm > 4000000)
