@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-int i;
 unsigned long t1 = 0, t2 = 1, nextTerm;
 float total_sum;
 while (1 < 2)
