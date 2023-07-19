@@ -19,7 +19,6 @@ for (i = 0; i <= n; i++)
 	for (j = 1; j <= n; j++)
 	{
 		_putchar(',');
-		_putchar(' ');
 		prod = i * j;
 	if (prod <= 9)
 	{
