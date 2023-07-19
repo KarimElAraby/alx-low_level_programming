@@ -13,7 +13,7 @@ while (1)
 nextTerm = t1 + t2;
 if (nextTerm > 4000000)
 	break;
-if ((nextTerm % 2) == 0)
+else if ((nextTerm % 2) == 0)
 	total_sum += nextTerm;
 	t1 = t2;
 	t2 = nextTerm;
