@@ -16,8 +16,8 @@ for (i = 0; i < 50; i++)
 	t2 = nextTerm;
 	if (i == 49)
 		printf("\n");
-	else 
-		printf (", ");
+	else
+	printf(", ");
 }
 return (0);
 }
