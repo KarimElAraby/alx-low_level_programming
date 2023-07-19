@@ -13,10 +13,10 @@ while (1)
 nextTerm = t1 + t2;
 if (nextTerm > 4000000)
 	break;
-else if ((nextTerm % 2) == 0)
+if ((nextTerm % 2) == 0)
 	total_sum += nextTerm;
-	t1 = t2;
-	t2 = nextTerm;
+t1 = t2;
+t2 = nextTerm;
 }
 printf("%.0f\n", total_sum);
 return (0);
