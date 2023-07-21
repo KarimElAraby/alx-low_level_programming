@@ -14,12 +14,12 @@ else
 {
 for (i = 1; i <= n; i++)
 {
-	if (i != n)
+if (i != n)
 	_putchar(' ');
+}
 else
 	_putchar("\\");
-}
 
-	_putchar('\n');
+_putchar('\n');
 }
 }
