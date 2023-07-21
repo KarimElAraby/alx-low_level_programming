@@ -31,7 +31,7 @@ else
 }
 if (i != 100)
 	printf(" ");
-else 
+else
 	printf("\n");
 }
 return (0);
