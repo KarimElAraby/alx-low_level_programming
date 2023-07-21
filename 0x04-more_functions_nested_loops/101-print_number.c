@@ -2,7 +2,7 @@
 /**
  *  *print_number - print numbers from 0 to 9
  *   *
- *    *
+ *@n: number to print
  */
 
 void print_number(int n)
