@@ -23,7 +23,7 @@ return (sqrt);
 
 /**
  * largest_prime_factor - finds and prints the largest
- * 	prime factor of number (num)
+ *	prime factor of number (num)
  *
  * @num: number to find
  *
@@ -33,7 +33,7 @@ void largest_prime_factor(long int num)
 {
 int prmnu, largest;
 while (num % 2 == 0)
-	num = num /2;
+	num = num / 2;
 for (prmnu = 3; prmnu <= _sqrt(num); prmnu += 2)
 {
 while (num % prmnu == 0)
