@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  *  *  *  *  *print_numberr - swaps the values of two integers
+ *  *  *  *  *  *print_number - swaps the values of two integers
  *   *   *   *   *   *
  *    *     *     *     *     *@n : 2nd pointer
  *     *      *      *      *      *
