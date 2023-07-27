@@ -17,7 +17,7 @@ return (c >= 97 && c <= 122);
 int isDelimiter(char c)
 {
 int i;
-char delimiter[] = " \t\n,;.!?\"(){}"
+char delimiter[] = " \t\n,;.!?\"(){}";
 	for (i = 0; i < 13; i++)
 		if (c == delimiter[i])
 			return (1);
@@ -36,9 +36,9 @@ char *ptr = s;
 int x = 1;
 while (*s)
 {
-	if (isDelimiter[*s])
+	if (isDelimiter(*s))
 		x = 1;
-	else if (isLower[*s] && x)
+	else if (isLower(*s) && x)
 	{
 		*s -= 32;
 		x = 0;
