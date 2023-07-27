@@ -2,8 +2,8 @@
 /**
  *  *  *  *  *_strcmp - swaps the values of two integers
  *   *   *   *   *
- *    *    *    *    *@dest : 1st pointer
- *     *     *     *     *@src : 2nd pointer
+ *    *    *    *    *@s1 : 1st pointer
+ *     *     *     *     *@s2 : 2nd pointer
  *      *      *      *      *
  *       *       *      Return: value the pointer to dest
  */
