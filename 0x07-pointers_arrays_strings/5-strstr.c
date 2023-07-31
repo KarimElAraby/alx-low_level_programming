@@ -10,17 +10,22 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-for (; *haystack != '\0'; haystack++)
+int x;
+if (*needle == 0)
+	return (haystack);
+
+while (*haystack)
 {
-char *one = haystack;
-char *two = needle;
-while (*one == *two && != '\0')
+x = 0;
+if (haystack[x] == needle[x])
 {
-one++;
-two++;
+do {
+	if (needle[x + 1] == '\0')
+		return (haystack);
+	x++;
+} while (haystack[x] == needle[x]);
 }
-if (*two == '\0')
-return (haystack);
+haystack++;
 }
 return ('\0');
 }
