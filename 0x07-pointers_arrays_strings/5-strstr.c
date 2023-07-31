@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *  *  *  *  *  *  *  *_strstr - fills memory with a constnat byte
