@@ -15,7 +15,7 @@ if (argc == 1)
 printf("Error\n");
 return (1);
 }
-else
+else if (argc == 3)
 {
 mul = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", mul);
