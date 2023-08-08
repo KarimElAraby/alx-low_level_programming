@@ -17,5 +17,5 @@ if (size == 0 || p == 0)
 while (size--)
 	p[size] = c;
 
-return (n);
+return (p);
 }
