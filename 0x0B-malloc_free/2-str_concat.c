@@ -31,9 +31,9 @@ int x1, x2, i;
 char *p;
 
 if (s1 == NULL)
-	s1 = '\0';
+	s1 = "\0";
 if (s2 == NULL)
-	s2 = '\0';
+	s2 = "\0";
 
 x1 = _strlen(s1);
 x2 = _strlen(s2);
