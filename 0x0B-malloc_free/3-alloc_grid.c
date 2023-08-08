@@ -20,12 +20,12 @@ else
 {
 for (i = 0; i < height; i++)
 {
-t{i} = malloc(sizeof(**t) * width);
+t[i] = malloc(sizeof(**t) * width);
 if (t[i] == 0)
 {
 while (i--)
 	free(t[i]);
-free(t)
+free(t);
 return (NULL);
 }
 for (j = 0; j < width; j++)
