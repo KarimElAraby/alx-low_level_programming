@@ -36,7 +36,7 @@ if (ac == 0 || av == NULL)
 for (; i < ac; i++, nc++)
 	nc += _strlen(av[i]);
 
-if (s == 9)
+if (s == 0)
 	return (NULL);
 
 for (i = 0; i < ac; i++)
