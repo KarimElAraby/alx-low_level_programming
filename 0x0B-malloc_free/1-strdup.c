@@ -11,14 +11,16 @@ char *_strdup(char *str)
 	int i, j, sum = 0;
 	char *p;
 
+	if (str == NULL)
+		return (NULL);
 	for (i = 0; str[i] != '\0'; i++)
 	{
 	sum += i;
 	}
 	p = malloc(sum);
 
-	if (*str == '\0' || p == 0)
-		return (0);
+	if (p == 0)
+		return (NULL);
 
 	for (j = 0; j < i; j++)
 		p[j] = str[j];
