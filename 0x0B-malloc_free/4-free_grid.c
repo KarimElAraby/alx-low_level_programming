@@ -6,7 +6,7 @@
  *     *     *     *     *     *     *@height : height
  *      *      *       *      *      *      *
  *       *       *        *       *      Return: 0 success . null fail
- *        */
+ */
 void free_grid(int **grid, int height)
 {
 int i;
