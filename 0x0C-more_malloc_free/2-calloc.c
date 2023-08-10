@@ -30,7 +30,6 @@ void *p;
 
 if (size == 0 || nmemb == 0)
 	return (NULL);
-
 p = malloc(sizeof(int) * nmemb);
 
 if (p == 0)
