@@ -7,7 +7,7 @@
  *     *     *     *     *     *@b : constant
  *      *      *      *      *      *@n : max byte to use
  *       *       *       *      Return: pointer s
- *        */
+ */
 char *_memset(char *s, char b, unsigned int n)
 {
 char *ptr = s;
@@ -19,7 +19,7 @@ return (ptr);
 }
 
 /**
- *  *  *  *  *  *  *  *calloc - to allocates memory for an array
+ *  *  *  *  *  *  *  *_calloc - to allocates memory for an array
  *   *   *     *     *     *     *     *@nmemb : no. of element
  *    *	*@size : size of byte
  *      *    *       *         Return: to pointer success . NULL if fails
@@ -32,6 +32,7 @@ if (size == 0 || nmemb == 0)
 	return (NULL);
 
 p = malloc(sizeof(int) * nmemb);
+
 if (p == 0)
 	return (NULL);
 
