@@ -6,11 +6,10 @@
  */
 void *malloc_checked(unsigned int b)
 {
-int *p;
-p = mallock(b);
+int *p = mallock(b);
 
-	if (p == 0)
-		exit(98);
+if (p == 0)
+	exit(98);
 
 return (p);
 }
