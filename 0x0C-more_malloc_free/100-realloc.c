@@ -16,7 +16,7 @@ if (new_size == old_size)
 	return (ptr);
 if (new_size == 0 && ptr != NULL)
 {
-frer(ptr);
+free(ptr);
 return (NULL);
 }
 if (ptr == NULL)
@@ -28,7 +28,7 @@ return (p);
 }
 if (new_size > old_size)
 {
-p == malloc(new_size);
+p = malloc(new_size);
 if (p == 0)
 	return (NULL);
 for (i = 0; i < old_size && i < new_size; i++)
