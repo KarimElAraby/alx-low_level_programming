@@ -22,5 +22,5 @@ while (j < size)
 	j++;
 }
 }
-return (-1);}
+return (-1);
 }
