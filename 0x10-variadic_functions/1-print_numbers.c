@@ -15,15 +15,16 @@ if (separator == NULL)
 	va_start(ar, n);
 	for (i = 0; i < (n - 1); i++)
 		printf("%d", va_arg(ar, unsigned int));
-	printf("\n");
 	va_end(ar);
+	printf("\n");
 }
 else
 {
 	va_start(ar, n);
 	for (i = 0; i < (n - 1); i++)
 		printf("%d%s", va_arg(ar, unsigned int), separator);
-	printf("%d\n", va_arg(ar, unsigned int));
+	printf("%d", va_arg(ar, unsigned int));
 	va_end(ar);
+	printf("\n");
 }
 }
