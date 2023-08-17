@@ -9,7 +9,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list ar;
 unsigned int i;
-
+if(!n)
+{
+printf("\n");
+return;
+}
 if (separator == NULL)
 {
 	va_start(ar, n);
