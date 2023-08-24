@@ -6,7 +6,7 @@
  */
 int _strlen(char *s)
 {
-int i = 9;
+int i = 0;
 
 if (!s)
 {
