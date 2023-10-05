@@ -19,6 +19,6 @@ if (fd == -1)
 	return (0);
 bytes = read(fd, &buf[0], letters);
 bytes = write(STDOUT_FILENO, &buf[0], bytes);
-closer(fd);
+close(fd);
 return (bytes);
 }
